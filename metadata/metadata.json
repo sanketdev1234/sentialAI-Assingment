@@ -1,0 +1,15 @@
+{
+  "name": "My First NFT",
+  "description": "This NFT demonstrates on-chain metadata registration using IPFS.",
+  "image": "ipfs://QmExampleImageCid",
+  "attributes": [
+    {
+      "trait_type": "Level",
+      "value": 1
+    },
+    {
+      "trait_type": "Type",
+      "value": "Demo"
+    }
+  ]
+}
