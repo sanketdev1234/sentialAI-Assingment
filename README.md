@@ -73,23 +73,31 @@ Event emitted on moderation:
 
 
 ### Example response:
-
+```
 {
   "tokenId": "1",
   "cid": "bafkreidw55zyljexs5gtwxzizq7oc2xxflbeyvlg5xprefn5evtznmre",
   "flagged": false
 }
-
+```
 ## How to Run the Project
 
 ### Start Local Blockchain
- - npx hardhat node
+```
+  npx hardhat node
+```
 
 ### Deploy Smart Contracts
-- node scripts/deploy-viem.js
+```
+ node scripts/deploy-viem.js
+```
 
 ### Mint NFT and Register Metadata
-- node scripts/register-metadata.js
+```
+ node scripts/register-metadata.js
+```
 
 ### Start Backend Indexer
-- node backend/index.js
+```
+ node backend/index.js
+```
