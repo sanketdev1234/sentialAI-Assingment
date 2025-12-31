@@ -16,33 +16,6 @@ This assignment focuses on **on-chain / off-chain coordination** and **decentral
 
 ---
 
-## 🏗 Architecture Overview
-
-┌──────────────┐
-│ IPFS (JSON) │
-└──────┬───────┘
-│ CID
-▼
-┌────────────────────┐
-│ MetadataRegistry │
-│ - register CID │
-│ - emit events │
-│ - flag metadata │
-└─────────┬──────────┘
-│ events
-▼
-┌────────────────────┐
-│ Backend Indexer │
-│ - listens events │
-│ - stores state │
-│ - exposes API │
-└────────────────────┘
-
-yaml
-Copy code
-
----
-
 ## 📜 Smart Contracts
 
 ### 1️⃣ MyNFT (ERC-721)
