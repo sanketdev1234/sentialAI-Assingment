@@ -19,29 +19,14 @@ Moderating (flagging) metadata without removing historical records
 Querying metadata and moderation status via an API
 
 This assignment focuses on on-chain / off-chain coordination and decentralized storage design.
-┌──────────────┐
-│  IPFS (JSON) │
-└──────┬───────┘
-       │ CID
-       ▼
-┌────────────────────┐
-│ MetadataRegistry   │
-│  - register CID    │
-│  - emit events     │
-│  - flag metadata   │
-└─────────┬──────────┘
-          │ events
-          ▼
-┌────────────────────┐
-│ Backend Indexer    │
-│  - listens events  │
-│  - stores state    │
-│  - exposes API     │
-└────────────────────┘
+<img width="371" height="574" alt="image" src="https://github.com/user-attachments/assets/f0b8e760-e0fb-4b13-b29d-28e73d51ac55" />
+
 
 
 📜 Smart Contracts
+
 1️⃣ MyNFT (ERC-721)
+
 Standard ERC-721 NFT contract
 Allows minting NFTs
 Each token represents ownership of metadata stored off-chain
