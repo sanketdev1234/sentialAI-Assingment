@@ -28,10 +28,8 @@ The goal of this assignment was to:
 - Emits an event whenever metadata is registered or updated:
 
 ```solidity
-MetadataRegistered(address owner, uint256 tokenId, string ipfsCid) 
-
-Event emitted on moderation:
-  event MetadataFlagged(uint256 tokenId, bool flagged);
+event MetadataRegistered(address owner, uint256 tokenId, string ipfsCid);
+event MetadataFlagged(uint256 tokenId, bool flagged);
 
 ```
 ---
@@ -43,6 +41,20 @@ Event emitted on moderation:
 - The CID is content-addressed:
 - Any change to the file results in a new CID
 - This ensures immutability and integrity of metadata
+- IPFS Metadata
+  - Metadata Structure (JSON)
+  - Example metadata uploaded to IPFS:
+   ```
+    {
+  "name": "My First NFT",
+  "description": "This NFT demonstrates on-chain metadata registration using IPFS.",
+  "image": "ipfs://<image_cid>",
+  "attributes": [
+    { "trait_type": "Level", "value": 1 },
+    { "trait_type": "Type", "value": "Demo" }
+  ]
+  }
+   ```
 
 ---
 
