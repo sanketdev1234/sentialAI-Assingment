@@ -115,11 +115,22 @@ event MetadataFlagged(uint256 tokenId, bool flagged);
 ```
 
 
-<img width="1253" height="278" alt="Screenshot 2025-12-31 233133" src="https://github.com/user-attachments/assets/a7a9b58c-560c-4758-9ac5-cdc372daaafa" />
 
+
+### contract-deployment
+ <img width="1253" height="278" alt="Screenshot 2025-12-31 233133" src="https://github.com/user-attachments/assets/a7a9b58c-560c-4758-9ac5-cdc372daaafa" />
+ 
+---
+### metadata-registration
 <img width="1186" height="199" alt="Screenshot 2025-12-31 233426" src="https://github.com/user-attachments/assets/04ffbd2a-024d-4b27-aa1d-15dc84e205fb" />
 
+---
+### hardhat-node
+<img width="1158" height="138" alt="image" src="https://github.com/user-attachments/assets/483abe97-0c1b-48d7-bd4e-4ff02509505e" />
+
+---
+### Backend API
 <img width="1729" height="381" alt="Screenshot 2025-12-31 234414" src="https://github.com/user-attachments/assets/a33c7fd3-0203-44f1-8bce-89d8a1b4d79f" />
 
-<img width="1158" height="138" alt="image" src="https://github.com/user-attachments/assets/483abe97-0c1b-48d7-bd4e-4ff02509505e" />
+
 
